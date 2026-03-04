@@ -1,5 +1,10 @@
-import java.util.Scanner;
 
+// Análise: Fica implícito que devemos subtrair o peso do prato do cliente com o próprio peso do prato;
+// Entradas: Peso do prato do cliente;
+// Saídas: Valor do prato do cliente;
+// Processo:  Valor do prato do cliente = [(Peso do prato do cliente) - (Peso do prato)]*25.
+
+import java.util.Scanner;
 public class Uni03Exe06 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner (System.in);

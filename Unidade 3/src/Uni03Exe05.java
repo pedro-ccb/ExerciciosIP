@@ -1,5 +1,10 @@
-import java.util.Scanner;
 
+// Análise: Assumimos que todo frango possui dois pés, logo, o custo por frango é de R$11,00;
+// Entradas: Quantidade de frangos;
+// Saídas: Custo total;
+// Processo:  Custo total = (Quantidade de frangos)*11.
+
+import java.util.Scanner;
 public class Uni03Exe05 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner (System.in);

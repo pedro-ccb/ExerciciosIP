@@ -1,5 +1,10 @@
-import java.util.Scanner;
 
+// Análise: Ok;
+// Entradas: Largura e comprimento;
+// Saídas: Área;
+// Processo:  Área = largura*comprimento.
+
+import java.util.Scanner;
 public class Uni03Exe01 {
     public static void main(String[] arg){
         Scanner teclado = new Scanner (System.in);

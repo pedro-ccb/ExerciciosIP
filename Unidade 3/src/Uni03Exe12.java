@@ -9,7 +9,7 @@ public class Uni03Exe12 {
         int horas = teclado.nextInt();
         System.out.println("Digite a quantidade de pessoas dependentes da sua família:");
         int dependentes = teclado.nextInt();
-        double salarioBruto = 60.0*dependentes + 10.0*horas;
+        double salarioBruto = 60*dependentes + 10*horas;
         double salarioLiquido = (salarioBruto - 60*dependentes)*0.865;
         System.out.printf("O funcionário %s possui um salário bruto de R$%.2f e um salário líquido de R$%.2f", nome, salarioBruto, salarioLiquido);
     }
